@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-03-11",
+  "categories": [
+    {
+      "id": "cat_01",
+      "name": "Packaging",
+      "sub_categories": ["Corrugated Boxes", "Compostable Mailers", "Paper Tape"],
+      "sustainability_filters": ["Plastic-free", "FSC-certified", "Recycled Content"]
+    },
+    {
+      "id": "cat_02",
+      "name": "Food Service",
+      "sub_categories": ["Wooden Cutlery", "Bagasse Plates", "Bamboo Straws"],
+      "sustainability_filters": ["Bio-based", "Home Compostable", "PFAS-free"]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: ecologic_db_container
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=eco_admin
+      - POSTGRES_PASSWORD=eco_secure_pass
+      - POSTGRES_DB=ecologic_db
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
